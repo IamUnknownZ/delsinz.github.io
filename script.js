@@ -16,17 +16,7 @@ window.onload = function(){
         audio.play();
     });
 
-// finger click touch screen
-    img.addEventListener('touchstart', function(){
-        img.src = 'popcat2.png';
-        audio.play();
-    });
-
-    img.addEventListener('touchmove', function(){
-        img.src = 'popcat1.png';
-        audio.play();
-    });
-
+    
     function increaseScore(){
         score++;
         count.innerHTML = score;
