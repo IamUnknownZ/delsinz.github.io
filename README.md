@@ -1,1 +1,1 @@
-# made by DelsinZ
+# DelsinZ.github.io
