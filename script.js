@@ -5,13 +5,13 @@ window.onload = function(){
     var audio = new Audio("pop.mp3");
 
 // mouse click
-    img.addEventListener('mousedown', function(){
+    img.addEventListener('touchstart', function(){
         increaseScore();
         img.src = 'popcat2.png';
         audio.play();
     });
 
-    img.addEventListener('mouseup', function(){
+    img.addEventListener('touchmove', function(){
         img.src = 'popcat1.png';
         audio.play();
     });
