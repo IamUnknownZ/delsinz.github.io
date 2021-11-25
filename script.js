@@ -18,7 +18,6 @@ window.onload = function(){
 
     //touch screen
     img.addEventListener('touchstart', function(){
-        increaseScore();
         img.src = 'popcat2.png';
         audio.play();
     });
