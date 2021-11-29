@@ -18,12 +18,12 @@ img.addEventListener("touchmove", function(){
      audio.play();
 });
 
-img.addEventListener("touchmove", function(){
+img.addEventListener("touchkod", function(){
     img.src = 'popcat1.png';
      audio.play();
 });
 
-img.addEventListener("touchmove", function(){
+img.addEventListener("touchdown", function(){
     img.src = 'popcat2.png';
      audio.play();
 });
