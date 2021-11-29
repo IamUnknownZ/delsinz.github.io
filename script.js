@@ -20,7 +20,6 @@ img.addEventListener("mouseup", function(){
 
 // touch event
 img.addEventListener("touchstart", function(){
-    increaseScore();
     img.src = 'popcat2.png';
     audio.play();
 });
