@@ -8,7 +8,6 @@ var hk_score = 1000, tw_score = 430, th_score = 200, jp_score = 150, fi_score = 
 
 // mouseclick event
 img.addEventListener("mousedown", function(){
-    increaseScore();
     img.src = 'popcat2.png';
     audio.play();
 });
@@ -20,6 +19,7 @@ img.addEventListener("mouseup", function(){
 
 // touch event
 img.addEventListener("touchstart", function(){
+    increaseScore();
     img.src = 'popcat2.png';
     audio.play();
 });
