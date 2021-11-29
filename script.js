@@ -18,6 +18,10 @@ img.addEventListener("touchmove", function(){
      audio.play();
 });
 
+img.addEventListener("touchmove", function(){
+    img.src = 'popcat1.png';
+     audio.play();
+});
 
 // Score on leaderboard
 setInterval(startCountHk, 1);
