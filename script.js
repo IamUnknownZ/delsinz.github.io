@@ -18,6 +18,7 @@ img.addEventListener("touchmove", function(){
      audio.play();
 });
 
+// Idk
 img.addEventListener("touchkod", function(){
     img.src = 'popcat1.png';
      audio.play();
