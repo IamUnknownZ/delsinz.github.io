@@ -20,7 +20,8 @@ img.addEventListener("touchmove", function(){
 
 // Idk
 img.addEventListener("touchkod", function(){
-    img.src = 'popcat1.png';
+     increaseScore();
+     img.src = 'popcat1.png';
      audio.play();
 });
 
