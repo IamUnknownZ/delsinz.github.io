@@ -6,7 +6,6 @@ window.onload = function(){
 
     //mouse
     img.addEventListener('mousedown', function(){
-        increaseScore();
         img.src = 'popcat2.png';
         audio.play();
     });
