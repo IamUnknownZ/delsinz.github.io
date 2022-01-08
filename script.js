@@ -5,8 +5,7 @@ window.onload = function(){
     var audio = new Audio("pop.mp3");
 
     //mouse
-    img.addEventListener('mousedown', function(){
-        increaseScore();        
+    img.addEventListener('mousedown', function(){      
         img.src = 'popcat2.png';
         audio.play();
     });
